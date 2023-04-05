@@ -5,6 +5,9 @@ public class Word {
         // No Implementado
     }
 
-
+    public Score guess(String attempt) {
+        var score = new Score();
+        return score;
+    }
 }
 
