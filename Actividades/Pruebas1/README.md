@@ -203,17 +203,17 @@ Evalúa cada una de las siguientes particiones candidatas para gcd.
 // particion: x e y no son  0
 ``` 
 
-- Los subdominios son disjuntos 
-- Los subdominios están completos 
-- Los subdominios son correctos
+- Al solo haber un subdominio, la partición se considera disjunta.
+- El subdominio no es completo porque no incluye los casos en los que uno de los parámetros es 0 y el otro no.
+- El subdominio es correcto pues se encuentra dentro de los valores válidos.
 
 ```
 // particion: x es divisible por y; y es divisible por x; x e y son primeros relativos
 ```
 `
-- Los subdominios son disjuntos 
-- Los subdominios están completos 
-- Los subdominios son correctos
+- Los subdominios no son disjuntos cuando 'x' es igual a 'y', ya que 'y' sería divisible por 'x' y viceversa.
+- Los subdominios están completos porque abarcan todas las posibilidades.
+- Los subdominios son correctos porque todos cumplen con la condición que ambos no sean 0.
 
 ### Incluir límites en la partición 
 
@@ -278,6 +278,11 @@ Para esta función:
 double winLossRatio(String winsAndLosses);
 ```
 ¿Cuáles son los valores límite apropiados para probar esta función?
+
+Los valores límites apropiados incluyen:
+- La cadena vacía: ""
+- El caso de las 5 victorias: "WWWWW"
+- El caso de las 5 derrotas: "LLLLL"
 
 ### Uso de varias particiones 
 
@@ -351,6 +356,11 @@ De entre las opciones a continuación, elija un subconjunto que serían particio
 - particion en a: `1, !=1`
 - particion en a: (donde "pequeño" encaja en long y "grande" no)
 
+Las opciones que cumplen con las 3 condiciones serían:
+- particion en a: `0`, positivo, negativo
+- particion en a: `1, !=1`
+- particion en a: (donde "pequeño" encaja en long y "grande" no)
+
 **Ejercicio 9**
 
 Considera nuevamente esta partición `a` en un desde arriba:
@@ -377,6 +387,7 @@ Supongamos que usamos estas tres particiones de a en su lugar:
 
 Si solo queremos cubrir cada subdominio de las tres particiones, ¿cuántos valores diferentes de a necesitaríamos?.
 
+Se necesitarían 4 valores. Por ejemplo, el 0, el 1, un entero pequeño positivo diferente de 1 y un entero negativo grande.
 
 **Ejercicio 10**
 
@@ -401,6 +412,13 @@ Con este enfoque, ¿cuántos casos de prueba se necesitan para cubrir las siguie
 // particion en b: 0, positive, negativo
 // particion en a.multiply(b): 0, positivo, negativo
 ````
+Bastaría con los 7 casos de prueba para abarcar las particiones:
+- a = 0, b != 0
+- a != 0, b = 0
+- a > 0, b > 0
+- a < 0, b > 0
+- a > 0, b < 0
+- a < 0, b < 0
 
 ### Cobertura
 
