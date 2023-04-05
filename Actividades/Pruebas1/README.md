@@ -208,6 +208,31 @@ Evalúe la calidad de cada una de las siguientes particiones candidatas. ¿Son l
 - Los subdominios están completos 
 - Los subdominios son correctos
 
+**Solución**
+
+```
+// particion: x < 0; x >= 0
+```
+-Los subdominios son disjuntos, porque un número no puede positivo y negativo a la vez  
+-Los subdominios están completos, porque cualquier número entero pertenece a uno de los subdominios.  
+-Los subdominios no son correctos, ya que la especificación de la función establece que el parámetro "x" debe ser no negativo.
+
+```
+// particion: x es un cuadrado perfecto; x es > 0 pero no es un cuadrado perfecto
+```
+-Los subdominios son disjuntos, porque un número no puede ser a la vez un cuadrado perfecto y no serlo.  
+-Los subdominios están completos, porque cualquier número entero pertenece a uno de los subdominios, considerando el parámetro de la función de que “x” es no negativo.  
+-Los subdominios son correctos, porque los valores están incluidos dentro del dominio del problema.
+
+
+```
+// particion: x=0, x=1, x=7, x=16
+``` 
+-Los subdominios son disjuntos, porque subdominio es un valor específico de x, por lo que están claramente separados y no se superponen.  
+-Los subdominios no están completos, porque existen valores de x que no están incluidos en ninguna de las cuatro opciones propuestas.  
+-Los subdominios son correctos, porque los valores están incluidos dentro del dominio del problema.
+
+
 
 **Ejercicio 6**
 
