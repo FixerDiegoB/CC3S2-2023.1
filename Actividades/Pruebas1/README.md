@@ -1,11 +1,9 @@
 ## Curso de desarrollo de software
 
-**Indicaciones**
+**Integrantes**
 
-Inicia un repositorio llamado CC-3S2 y dentro una carpeta llamada Actividades. Dentro de esta carpeta abre una carpeta llamada Pruebas1 y coloca todas tus respuestas.
-
-Esta actividad es grupal.
-
+- Bayes Santos, Diego Edson
+- Zuñiga Chicaña, Alejandra Aztirma
 
 ### Pruebas en sotware - parte1
 
