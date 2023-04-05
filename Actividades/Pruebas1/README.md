@@ -40,14 +40,15 @@ Abejita, quien escribió este método y cree que debería funcionar, lo prueba e
 - ¿Cuál podría ser el número de casos de prueba requeridos para probar esta función exhaustivamente?
 
 **Solución**
-- `andAll([true, true, true, ..., true, true]) // 32 valores true` 
-El resultado para la primera prueba, el método en cuestión devolverá “true”. Esto se debe a que el operador AND lógico devuelve “true” cuando los valores que se están comparando son “true”. Al ser todos los valores en el arreglo (para este caso) son “true”, el resultado de la operación en todas sus iteraciones del bucle será “true”.
+- `andAll([true, true, true, ..., true, true]) // 32 valores true`  
+ El resultado para la primera prueba, el método en cuestión devolverá “true”. Esto se debe a que el operador AND lógico devuelve “true” cuando los valores que se están comparando son “true”. Al ser todos los valores en el arreglo (para este caso) son “true”, el resultado de la operación en todas sus iteraciones del bucle será “true”.
 
-- `andAll([false, true, false, true, ..., false, true]) // 32 valores alternando entre false y true ` 
+- `andAll([false, true, false, true, ..., false, true]) // 32 valores alternando entre false y true `  
+El resultado para el segundo caso de prueba, el método en cuestión devolverá “false”. Esto se debe a que el operador AND lógico devuelve “false” si al menos hay un valor “false” en el arreglo. Aunque los valores en el arreglo alternen entre “true” y “false” como se mencionó, basta un “false” para que el resultado sea “false”
 
 
-- Jessica dice que todo está OK. Pero desafortunadamente su código tiene un error off-by-one . ¿Qué expresión tiene el error? 
-
+- Jessica dice que todo está OK. Pero desafortunadamente su código tiene un error off-by-one . ¿Qué expresión tiene el error?  
+ La expresión que contiene el error off-by-one es la condición del bucle "for". La condición actual es "i < 31", lo que significa que el bucle se ejecutará para los valores de "i" de 1 a 30, pero no incluirá el último valor del arreglo. La condición correcta debería ser "i < 32". Esto garantizará que el bucle se ejecute para todos los valores del arreglo "bits", incluyendo el último valor.
 
 
 
@@ -61,6 +62,13 @@ En la década de 1990, el vehículo de lanzamiento Ariane 5, diseñado y constru
 - Probar todas las entradas posibles es la mejor solución a este problema. 
 - El software exhibe un comportamiento discontinuo, a diferencia de muchos sistemas diseñados físicamente. 
 - La verificación de tipos estáticos podría haber detectado este error.
+
+**Solución**
+
+* Incluso el software crítico para la seguridad de alta calidad puede tener errores residuales.  
+
+ Esta historia muestra que incluso cuando se utiliza un software de alta calidad, el error humano y la falta de pruebas adecuadas pueden provocar errores “residuales” que tienen fatales consecuencias. Esto destaca la importancia de una verificación y pruebas rigurosas para garantizar la calidad y seguridad del software utilizado en aplicaciones críticas. 
+
 
 ### Pruebas sistemáticas 
 
@@ -79,6 +87,12 @@ Un conjunto de pruebas es correcto si:
 - Algún caso de prueba falla cuando se ejecuta en una implementación con errores
 - Todos sus casos de prueba pasan cuando se ejecutan en una implementación legal 
 - algunos casos de prueba pasan cuando se ejecutan en una implementación legal 
+
+**Solución**
+* Algún caso de prueba falla cuando se ejecuta en una implementación con errores.  
+
+ Un conjunto de pruebas es correcto si puede encontrar errores en el software. Para que esto suceda, el conjunto de pruebas debe tener al menos un caso de prueba que falle cuando se ejecute en una versión con errores del software. Si todas las pruebas pasan cuando se ejecutan en una versión del software sin errores, esto no garantiza que el software esté libre de ellos.
+
 
 **Ejercicio 4**
 
