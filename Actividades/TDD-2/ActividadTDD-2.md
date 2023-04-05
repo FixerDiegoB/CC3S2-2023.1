@@ -2,9 +2,10 @@
 
 ###  Actividad grupal
 
-Descarga la actividad incompleta desde aquí:https://github.com/kapumota/Actividades/tree/main/TDD-2/TDD-2 
+**Integrantes**
 
-Inicia un repositorio llamado CC-3S2 y dentro una carpeta llamada Actividades. Dentro de esta carpeta abre una carpeta llamada TDD-2 y coloca todas tus respuestas.
+- Bayes Santos, Diego Edson
+- Zuñiga Chicaña, Alejandra Aztirma
 
 
 ## Iniciando TDD: Arrange-Act-Assert
