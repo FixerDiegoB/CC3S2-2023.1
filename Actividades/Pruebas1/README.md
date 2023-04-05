@@ -39,6 +39,18 @@ Abejita, quien escribió este método y cree que debería funcionar, lo prueba e
 - Jessica dice que todo está OK. Pero desafortunadamente su código tiene un error off-by-one . ¿Qué expresión tiene el error? 
 - ¿Cuál podría ser el número de casos de prueba requeridos para probar esta función exhaustivamente?
 
+**Solución**
+- `andAll([true, true, true, ..., true, true]) // 32 valores true` 
+El resultado para la primera prueba, el método en cuestión devolverá “true”. Esto se debe a que el operador AND lógico devuelve “true” cuando los valores que se están comparando son “true”. Al ser todos los valores en el arreglo (para este caso) son “true”, el resultado de la operación en todas sus iteraciones del bucle será “true”.
+
+- `andAll([false, true, false, true, ..., false, true]) // 32 valores alternando entre false y true ` 
+
+
+- Jessica dice que todo está OK. Pero desafortunadamente su código tiene un error off-by-one . ¿Qué expresión tiene el error? 
+
+
+
+
 **Ejercicio 2**
 
 En la década de 1990, el vehículo de lanzamiento Ariane 5, diseñado y construido para la Agencia Espacial Europea, se autodestruyó 37 segundos después de su primer lanzamiento. El motivo fue un error del software de control que no se detectó. El software de guía del Ariane 5 se reutilizó del Ariane 4, que era un cohete más lento. Cuando el cálculo de la velocidad se convirtió de un número de coma flotante de 64 bits (el mismo que un número en TypeScript, aunque este software no se escribió en TypeScript) a un número entero con signo de 16 bits, desbordó el número entero pequeño y provocó una excepción. El controlador de excepciones se había deshabilitado por razones de eficiencia, por lo que el software de guía se bloqueó. Sin guía, el cohete también se estrelló. El costo de la falla fue de mil millones de dólares. 
