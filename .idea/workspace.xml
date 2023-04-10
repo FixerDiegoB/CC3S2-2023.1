@@ -4,65 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80a06cf-eb36-4032-888b-5c43018c4c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/.idea/TDD-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividades/TDD-2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/ActividadTDD-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/classes/java/main/com/wordz/Wordz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Letter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Score.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/classes/java/main/com/wordz/domain/Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/classes/java/test/com/wordz/domain/WordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/classes/com.wordz.domain.WordTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/reports/tests/test/packages/com.wordz.domain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/test-results/test/TEST-com.wordz.domain.WordTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/src/main/java/com/wordz/Wordz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/src/main/java/com/wordz/domain/Letter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/src/main/java/com/wordz/domain/Score.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/src/main/java/com/wordz/domain/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividades/TDD-2/TDD-2/src/test/java/com/wordz/domain/WordTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d80a06cf-eb36-4032-888b-5c43018c4c1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,26 +21,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/dbaye/Documents/Code/Java Projects/CC3S2-2023.1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dbaye/Documents/Code/Java Projects/CC3S2-2023.1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +51,7 @@
       <updated>1680705027378</updated>
       <workItem from="1680705028397" duration="29000" />
       <workItem from="1681132370624" duration="1612000" />
+      <workItem from="1681134282375" duration="80000" />
     </task>
     <servers />
   </component>
