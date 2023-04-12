@@ -127,7 +127,7 @@ public class Score {
 }
 ```
 **Pregunta** Ejecuta todas las pruebas para ver cómo lo estamos haciendo. Explica tus resultados.
-
+![2023-04-12 (1)](https://user-images.githubusercontent.com/89436252/231473481-a42ce413-d81b-48dc-9211-069e57c632b3.png)
 
 Ahora entramos en la fase de refactorización del ciclo RGR. Una vez más, TDD nos devuelve el control. ¿Queremos refactorizar? ¿Qué cosas debemos refactorizar? ¿Por qué? ¿Vale la pena hacer esto ahora o podemos posponerlo hasta un paso posterior? 
 
