@@ -9,7 +9,6 @@ public class Word {
 
     public Score guess(String attempt) {
         var score = new Score(word);
-
         score.assess(0, attempt);
         return score;
     }

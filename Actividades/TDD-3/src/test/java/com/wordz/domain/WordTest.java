@@ -7,10 +7,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class WordTest {
     @Test
-    public void oneIncorrectLetter() {
+    public void oneCorrectLetter() {
         var word = new Word("A");
         var score = word.guess("A");
-        assertThat(score.letter(0)).isEqualTo(CORRECT);
+        assertThat(score.letter(0))
+                .isEqualTo(Letter.CORRECT);
     }
-
+    private void assertScoreForLetter(Score score,
+                                      int position, Letter expected) {
+        assertThat(score.letter(position))
+                .isEqualTo(expected);
+    }
 }

@@ -19,4 +19,12 @@ public class Score {
             resultado = Letter.CORRECT;
         }
     }
+    private boolean isCorrectLetter(int position,
+                                    String attempt) {
+            return correct.charAt(position) ==
+                attempt.charAt(position);
+    }
 }
+
+
+
