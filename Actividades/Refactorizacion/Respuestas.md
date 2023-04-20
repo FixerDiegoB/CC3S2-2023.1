@@ -131,7 +131,7 @@ Ahora puedes eliminar todo el código de inicialización de la calculadora en lo
 
 Realiza la implementación de la función de resta por tu cuenta. 
 
-Código de producción:
+Código de implementación:
 ``` 
 public int subtraction(int a, int b) {
         return a - b;
@@ -192,3 +192,5 @@ public int division(int a, int b) {
 	}
 }
 ``` 
+
+![image](https://user-images.githubusercontent.com/57854488/233396772-7c5327a3-9517-4f13-88ef-f207dce38f0a.png)
