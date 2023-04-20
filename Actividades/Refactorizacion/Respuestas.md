@@ -140,11 +140,11 @@ public int subtraction(int a, int b) {
 Código de prueba:
 ``` 
 @Test
-    public void whenSubtractionTwoNumberThenReturnCorrectAnswer() {
+public void whenSubtractionTwoNumberThenReturnCorrectAnswer() {
         assertEquals( 5, calculadora.subtraction(8,3));
-    }
+}
 ``` 
-Resultado:
+Resultado:\
 ![image](https://user-images.githubusercontent.com/57854488/233375524-e22c3d93-5d15-4cf8-83c9-f0831bac3a33.png)\
 
 **Requisito 3:** La calculadora debe tener función de división.
