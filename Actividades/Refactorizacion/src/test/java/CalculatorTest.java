@@ -37,6 +37,6 @@ public class CalculatorTest {
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
             calculadora.division(5, 0);
         });
-        assertEquals("No se puede divisor por  cero", exception.getMessage());
+        assertEquals("No se puede dividir por cero", exception.getMessage());
     }
 }

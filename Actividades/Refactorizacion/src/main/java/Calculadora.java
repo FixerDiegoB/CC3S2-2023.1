@@ -18,6 +18,10 @@ public class Calculadora {
     }
 
     public int division(int a, int b) {
-        return a / b;
+        if (b == 0) {
+            throw new IllegalArgumentException("No se puede dividir por cero");
+        } else {
+            return a / b;
+        }
     }
 }
