@@ -91,6 +91,8 @@ public boolean getStatus() {
 
 Ejecuta la clase de prueba para verificar si todo está bien. ¡Debes ver una línea verde!
 
+![image](https://user-images.githubusercontent.com/57854488/233373873-3fc579ec-0975-4143-bf9f-b1639b20e310.png)\
+
 **Requisito 2:** La calculadora debe tener funciones de suma y resta. 
 
 **Prueba:**
@@ -128,6 +130,22 @@ public static void init(){
 Ahora puedes eliminar todo el código de inicialización de la calculadora en los métodos de prueba. 
 
 Realiza la implementación de la función de resta por tu cuenta. 
+
+Código de producción:
+``` 
+public int subtraction(int a, int b) {
+        return a - b;
+}
+```
+Código de prueba:
+``` 
+@Test
+    public void whenSubtractionTwoNumberThenReturnCorrectAnswer() {
+        assertEquals( 5, calculadora.subtraction(8,3));
+    }
+``` 
+Resultado:
+![image](https://user-images.githubusercontent.com/57854488/233375524-e22c3d93-5d15-4cf8-83c9-f0831bac3a33.png)\
 
 **Requisito 3:** La calculadora debe tener función de división.
 
