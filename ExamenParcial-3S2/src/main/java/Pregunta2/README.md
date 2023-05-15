@@ -216,7 +216,13 @@ Una posible refactorización sería de esta forma. Se agrega el método 'esGanad
 
 ![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/69d6bcc4-429b-4bb1-b7d4-a97367bc1761)\
 
+### Cobertura de código
 
+Se aplica la cobertura de código a la unidad de pruebas.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/528ea4b9-b3f7-490b-a108-c594f1dfb71c)\
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/97dbaf15-740a-4316-ab1b-74c4e59337d2)\
 
 
 
