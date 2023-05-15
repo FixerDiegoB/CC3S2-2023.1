@@ -9,9 +9,4 @@ public class FreeMember extends Member{
     public void joinTournament() {
         System.out.println("Free member " + this.getNombre() + " se une al torneo.");
     }
-
-    @Override
-    public void organizeTournament() {
-        System.out.println("Free member " + this.getNombre() + " no puede organizar torneos.");
-    }
 }

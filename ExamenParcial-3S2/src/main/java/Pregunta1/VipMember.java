@@ -1,6 +1,6 @@
 package Pregunta1;
 
-public class VipMember extends Member{
+public class VipMember extends Organizer{
     public VipMember(String nombre) {
         super(nombre);
     }
