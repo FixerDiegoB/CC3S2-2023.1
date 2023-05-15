@@ -148,8 +148,81 @@ Asimismo, para evitar un cambio de turno luego de obtener un ganador, se modific
 
 ![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/1886a54a-83a8-4896-bb15-4d38a2af9449)\
 
+- Implementación: Se realiza de manera similar a la prueba anterior.
 
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/86fc4fc4-9dc8-4e61-a184-1d3363fe4e8a)\
 
+### Prueba – condición ganadora III
+
+- Primera ejecución: La prueba falla porque se espera que el ganador sea 'X', pero aún no se implementa la verificación por primera línea diagonal.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/578031af-37db-4f02-8ae7-52935ea22ef5)\
+
+- Segunda ejecución: Luego de la implementación, la prueba pasa correctamente.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/29c2e382-a5e8-46e4-b68b-4e6438bed64b)\
+
+- Implementación: Se realiza directamente sin bucles.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/87b2af4c-5cb0-421a-9c8d-19b3cfeab31d)\
+
+### Prueba – condición ganadora IV
+
+- Primera ejecución: La prueba falla porque se espera que el ganador sea 'X', pero aún no se implementa la verificación por segunda línea diagonal.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/8846e5ae-b855-433c-af03-ce91af7af1cf)\
+
+- Segunda ejecución: Luego de la implementación, la prueba pasa correctamente.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/c2c66f8b-c394-4d64-891a-55d9d4249f7b)\
+
+- Implementación: Se realiza de manera similar a la prueba anterior.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/6fbde81e-34b3-4330-af78-88f110882048)\
+
+### Refactorización
+
+Ahora se modifica la implementación de los métodos para verificar ganador por línea diagonal para que implemente el bucle.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/4a839fd1-e1b5-48c4-a349-85db1a310aa9)\
+
+Asimismo, se verifica que la refactorización pase todoas las pruebas.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/524b98ec-1792-4624-a51f-06ae8a7690fc)\
+
+### Requisito 4: condiciones de empate
+
+### Prueba: manejo de una situación de empate
+
+- Primera ejecución: La prueba falla porque no existe el método 'hayEmpate'.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/8137b888-e87a-4b90-9340-8f3f604eeb6a)\
+
+- Segunda ejecución: Esta prueba falla porque el método 'hayEmpate' no está implementado y siempre retorna falso.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/db5537d0-1c66-4c60-b576-09ab66b9e9c5)\
+
+- Tercera ejecución: Luego de la implementación del método, la prueba pasa correctamente.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/0d8c4505-4e28-4098-a78d-13209bd8e798)\
+
+- Implementación: Se lee todo el tablero buscando casillas vacías y además, se asegura que no haya ganador.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/a925692c-7e8d-483b-b45d-4321ea3a71ff)\
+
+### Refactorización
+
+Una posible refactorización sería de esta forma. Se agrega el método 'esGanador' y se modifican los de 'hayEmpate' y 'obtenerGanador'.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/69d6bcc4-429b-4bb1-b7d4-a97367bc1761)\
+
+### Cobertura de código
+
+Se aplica la cobertura de código a la unidad de pruebas.
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/528ea4b9-b3f7-490b-a108-c594f1dfb71c)\
+
+![image](https://github.com/FixerDiegoB/CC3S2-2023.1/assets/57854488/97dbaf15-740a-4316-ab1b-74c4e59337d2)\
 
 
 
