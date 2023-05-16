@@ -15,7 +15,9 @@ escribiendo una buena partición del espacio de entrada solo en el límite de en
 decir, la partición no debe mencionar ni el texto ni el delimitador.
 
 Caso 1: límite < 0 (Para manejar el caso sin límite.)
+
 Caso 2: límite = 0 (Para manejar el caso inválido.)
+
 Caso 3: límite > 0 (Para manejar un caso estándar.)
 
 (b) Ahora, escriba una buena partición del espacio de entrada sobre la relación entre el
@@ -29,4 +31,8 @@ Caso 2: limite > 0 y hay más de limite-1 ocurrencias de delimitador en el texto
 Caso 3: límite = 0
 
 Caso 4: limite < 0 y hay una cantidad menor o igual a limite-1 ocurrencias de delimitador en el texto
+
+# c) Refactorización avanzada (3 puntos)
+
+No hay código para 'DataStats' necesario para la pregunta
 
