@@ -1,5 +1,5 @@
 import json
-import NDataStats
+from datastats import NDataStats
 
 test_data = [
     {
@@ -24,6 +24,7 @@ test_data = [
         "salario": "$70472"
     }
 ]
+
 
 def test_init():
     ds = NDataStats(test_data)
